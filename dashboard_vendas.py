@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 import io
 import warnings
-warnings.filterwarnings('ignore', category=FutureWarning)
+warnings.filterwarnings('ignore')
 
 # Configuração da página
 st.set_page_config(
