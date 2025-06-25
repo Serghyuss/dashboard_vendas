@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -10,6 +11,15 @@ from sklearn.preprocessing import PolynomialFeatures
 import io
 import warnings
 warnings.filterwarnings('ignore')
+
+def get_port():
+    return int(os.environ.get("PORT", 8501))
+
+st.set_page_config(
+    page_title="Dashboard Avançado de Vendas",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="expanded"
 
 # Configuração da página
 st.set_page_config(
