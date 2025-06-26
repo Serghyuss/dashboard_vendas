@@ -20,7 +20,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
-
+)
 # Configuração da página
 st.set_page_config(
     page_title="Dashboard Avançado de Vendas",
